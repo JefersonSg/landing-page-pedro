@@ -1,0 +1,12 @@
+.footer {
+    height: 90px;
+    width: 100%;
+    background: linear-gradient(#2F2F2F, #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px ;
+}
+.footer p {
+    color: white;
+}

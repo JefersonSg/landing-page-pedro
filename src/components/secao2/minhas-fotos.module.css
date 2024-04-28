@@ -1,0 +1,114 @@
+
+.section_2 {
+    background: linear-gradient(#FFEBB0 59%, #000000 100%);
+}
+.container {
+    width: 100%;
+    padding: 0 20px;
+    padding-top:64px;
+    display: flex;
+    gap: 124px;
+    max-width: max-content;
+    margin: 0 auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding-bottom: 256px;
+    position: relative;
+
+}
+
+.image_balanco_div {
+    position: relative;
+    width: 311px;
+    flex-basis: 33%;
+}
+
+
+.foto_balanco {
+    background-color: #F7CD47;
+    box-shadow: inset 0 0 0 14px #2B2724;
+    border-radius: 100px 0 100px 100px;
+}
+
+.border {
+    position: absolute;
+    display: block;
+    z-index: 100;
+    width: 304px;
+    height: 409px;
+    box-shadow: inset 0 0 0 14px #2B2724, 22px 0 0 0 #2B2724;
+    border-radius: 100px 0 100px 100px;
+    left: 0;
+    top: 0;
+}
+.preenchimento {
+    margin-top: 32px;
+}
+
+.texto_frase {
+    font-family: var(--text-script);
+    padding: 4px 32px;
+    font-size: 40px;
+    background-color: #F7CD47;
+    border-radius: 12px;
+    margin-bottom: 64px;
+    box-shadow: 9px 8px 4px 0 rgba(0, 0, 0, 0.25);
+    max-width: 900px;
+    flex: 1;
+    max-height: 230px;
+}
+
+@media (max-width: 64rem) {
+    .container {
+        display: grid;
+        grid-template-columns: 270px auto;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    .preenchimento {
+        display: none;
+    }
+
+    .foto_balanco {
+        width: 250px;
+        height: auto;
+        border-radius: 60px 0 60px 60px;
+    }
+    .border {
+        width: 250px;
+        height: 333px;
+        border-radius: 60px 0 60px 60px;
+    }
+    .texto_frase {
+        font-size: 20px;
+        grid-column: 2;
+        padding: 8px 32px;
+    }
+
+}
+
+@media (max-width: 48rem) {
+    .image_balanco_div {
+        flex-basis: 33%;
+    }
+    .foto_balanco {
+        width: 128px;
+        height: 162px;
+        border-radius: 35px 0 35px 35px;
+    box-shadow: inset 0 0 0 3px #2B2724;
+    }
+    .border {
+        width: 128px;
+        height: 162px;
+        border-radius: 35px 0 35px 35px;
+    box-shadow: inset 0 0 0 6px #2B2724, 6px 0 0 0 #2B2724;
+
+    }
+    .container {
+        padding-top: 32px;
+        grid-template-columns: max-content auto;
+        align-items: start;
+
+    }
+}

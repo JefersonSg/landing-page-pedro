@@ -1,0 +1,36 @@
+.card {
+    width: 100%;
+    background: linear-gradient(#35BBF5 0% , #3188C7 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 8px solid white;
+    border-radius: 48px;
+    justify-content: center;
+    margin-top: 64px;
+    padding: 16px 0;
+}
+
+.card h3 {
+    font-family: var(--text-title);
+    font-size: 40px;
+    color: white;
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
+    margin-top: 16px;
+    letter-spacing: 1.5px;
+}
+
+.card p {
+    color: white;
+    font-size: 24px;
+    margin-top: 4px;
+}
+@media (max-width: 64rem) {
+   .card {
+    margin-top: 0px;
+   }
+}

@@ -1,0 +1,38 @@
+.container {
+    padding: 0 20px;
+    padding-bottom: 248px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contatos {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 64px;
+    cursor: pointer;
+}
+.container h1 {
+    font-family: var(--text-title);
+    font-size: 96px;
+    color: white;
+    text-shadow:     
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
+    text-align: center;
+    margin-top: 64px;
+}
+
+@media (max-width: 64rem) {
+    .container h1 {
+        font-size: 40px;
+        margin-top: 32px;
+    }
+    .contatos {
+        flex-direction: column;
+        gap: 32px;
+        margin-top: 32px;
+    }
+}

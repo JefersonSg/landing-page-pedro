@@ -1,0 +1,13 @@
+.section_1 {
+    background: linear-gradient(#19A6E2 80% , #0E5B7C 100%);
+    font-family: var(--text-body);
+    background: url('../../public/background.svg') center center;
+    padding-bottom: 64px;
+    width: 100%;
+}
+
+@media (max-width: 64rem) {
+    .section_1 {
+        padding-bottom: 32px;
+    }
+}

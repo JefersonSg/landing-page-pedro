@@ -1,0 +1,12 @@
+.container_photos {
+    grid-column: 1/-1;
+    position: absolute;
+    right: 0;
+    top: 400px;
+}
+
+@media (max-width: 64rem) {
+    .container_photos {
+        position: initial;
+    }
+}

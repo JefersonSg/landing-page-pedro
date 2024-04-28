@@ -1,0 +1,115 @@
+.section_1_container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    padding-top: 64px;
+}
+
+.container1 {
+    max-width: 675px;
+    border: 4px solid white ;
+    border-radius: 40px;
+    background-color: #3B84A3;
+    padding: 24px;
+    position: relative;
+    padding-bottom: 64px;
+}
+
+.container1 h1 {
+    font-family: var(--text-title);
+    font-size: 56px;
+    color: #FFE600;
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
+}
+
+.container1 p {
+    font-size: 24px;
+    color: white;
+    max-width: 40ch;
+    padding-top: 32px;
+}
+.fotos {
+    max-width: 100%;
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.fotos img:nth-child(2) {
+    margin-top: 64px;
+}
+.fotos img:nth-child(3) {
+    margin-top: calc(64px + 23px);
+}
+.fotos img:nth-child(4) {
+    margin-top: calc(64px + 23px + 4px);
+}
+
+.seta {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0%, -50%);
+    animation: movimento  .8s ease-out infinite alternate;
+}
+
+@keyframes movimento {
+    from {
+       transform: translate3d(-20px,0,0);
+    }
+    to {
+        transform: translate3d(0px,0,0);
+    }
+}
+
+
+@media (max-width: 64rem) {
+    .section_1_container {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    .container1 {
+        order: 2;
+        max-width: 400px;
+        min-height: 330px;
+    }
+    .container1 h1 {
+        font-size: 40px;
+    }
+    .container1 p {
+        font-size: 16px;
+    }
+    .container1 img {
+        width: 65px;
+        height: auto;
+    }
+    .fotos {
+        padding-top: 0px;
+    }
+    .fotos img:nth-child(2) {
+        margin-top: 47px;
+    }
+    .fotos img:nth-child(3) {
+        margin-top: calc(47px + 10px);
+    }
+    .fotos img:nth-child(4) {
+        margin-top: calc(47px + 23px + 1px);
+    }
+
+    .foto_perfil {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+    .seta {
+        top: -5%;
+        right: 45%;
+        rotate: 270deg;
+        width: 30px;
+    }
+}
