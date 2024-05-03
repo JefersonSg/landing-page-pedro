@@ -44,7 +44,7 @@
 
 @media (max-width: 500px) {
     .logo {
-        font-size: 20px;
+        font-size: 18px;
     }
     .header_navigation ul {
         gap: 8px;
@@ -54,6 +54,6 @@
         font-size: 12px;
     }
     .header_navigation {
-        padding: 16px 30px;
+        padding: 16px 12px;
     }
 }
