@@ -7,6 +7,11 @@
 
 @media (max-width: 64rem) {
     .container_photos {
-        position: initial;
+        position: relative;
+        top: initial;
+        right: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

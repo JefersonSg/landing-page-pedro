@@ -32,8 +32,9 @@ const SlidePhoto = () => {
         effect="cards"
         modules={[EffectCards, Pagination, Navigation, Zoom]}
         grabCursor={true}
-        centeredSlides={true}
         loop={true}
+        slidesPerView={1}
+        centeredSlides={true}
         pagination={true}
         navigation={true}
         zoom={true}
