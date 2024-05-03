@@ -89,8 +89,18 @@
 }
 
 @media (max-width: 48rem) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .texto_frase {
+        max-width: 55ch;
+        margin: 0 auto;
+        width: calc(100vw - 50px);
+    }
     .image_balanco_div {
         flex-basis: 33%;
+        display: none;
     }
     .foto_balanco {
         width: 128px;

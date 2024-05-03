@@ -12,16 +12,16 @@ import Image from 'next/image';
 import { EffectCards, Navigation, Pagination, Zoom } from 'swiper/modules';
 
 const ArrayImages = [
-  '/fotos/IMG_0499.JPG',
-  '/fotos/IMG_0511.JPG',
-  '/fotos/IMG_0517.JPG',
-  '/fotos/IMG_0518.JPG',
-  '/fotos/IMG_0558.JPG',
-  '/fotos/IMG_0651.JPG',
-  '/fotos/IMG_0657.JPG',
-  '/fotos/IMG_0799.PNG',
-  '/fotos/IMG_0799.PNG',
-  '/fotos/IMG_0800.PNG'
+  '/fotos/IMG_0499.jpg',
+  '/fotos/IMG_0511.jpg',
+  '/fotos/IMG_0517.jpg',
+  '/fotos/IMG_0518.jpg',
+  '/fotos/IMG_0558.jpg',
+  '/fotos/IMG_0651.jpg',
+  '/fotos/IMG_0657.jpg',
+  '/fotos/IMG_0799.jpg',
+  '/fotos/IMG_0799.jpg',
+  '/fotos/IMG_0800.jpg'
 ];
 
 const SlidePhoto = () => {
