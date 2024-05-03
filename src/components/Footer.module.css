@@ -10,3 +10,10 @@
 .footer p {
     color: white;
 }
+
+@media (max-width:48rem) {
+    .footer p {
+        white-space: nowrap;
+        font-size: 12px;
+    }
+}
